@@ -9,6 +9,11 @@ public class Prob04 {
 
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
-
+		int index = 0;
+		while(index != text.length()) { 
+			System.out.println(text.substring(0, index));
+			index++;
+		}
+		System.out.println(text);
 	}
 }
